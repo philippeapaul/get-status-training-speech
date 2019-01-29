@@ -23,14 +23,14 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   }
   
   function get_status_training(agent) {
-//    agent.add('Test list');
-    const request = require('request');
+    agent.add('Test list');
+//    const request = require('request');
 
-    agent.add(
-    (request('https://script.google.com/macros/s/AKfycbzMlN-sjh34og0FIfXscWo5Ih_UxlgfCPZdd5llER9iK0qd3OzR/exec', function(err, res, body) {  
-    console.log(body);
-    }))
-    );
+//    agent.add(
+//    (request('https://script.google.com/macros/s/AKfycbzMlN-sjh34og0FIfXscWo5Ih_UxlgfCPZdd5llER9iK0qd3OzR/exec', function(err, res, body) {  
+//    console.log(body);
+//    }))
+//    );
   }
  
 
